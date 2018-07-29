@@ -19,7 +19,7 @@ int main(void)
     TriggerScope();
     CyDelay(2u);
     LED_1_Write(1u);
-    P5LP_059_Debug_Start();
+    P5LP_Debug_Start();
     for(;;)
     {
         /* Place your application code here. */
